@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter {
+        url "http://jcenter.bintray.com/"
+    }
+}
+
+
+dependencies {
+    compile (
+    	'com.google.code.gson:gson:2.7',
+    	'org.apache.commons:commons-lang3:3.4'
+    )
+}
